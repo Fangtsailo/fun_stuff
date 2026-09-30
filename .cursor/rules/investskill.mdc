@@ -1,0 +1,51 @@
+---
+description: InvestSkill — US stock analysis frameworks. Use when the user asks for US stock/ETF evaluation, valuation, technical analysis, financial report or earnings analysis, portfolio review, risk stress testing, or any investment research output.
+alwaysApply: false
+---
+
+<!-- investskill:begin -->
+## InvestSkill — investment analysis frameworks
+
+This project includes 30 structured US-stock analysis frameworks in `.investskill/prompts/`.
+When the user asks for investment analysis, read the matching framework file and
+follow it exactly — its output contract, tables, and Investment Signal Block.
+
+Available frameworks:
+- `.investskill/prompts/10k-digest.md`
+- `.investskill/prompts/bear-case.md`
+- `.investskill/prompts/catalyst-calendar.md`
+- `.investskill/prompts/chart-master.md`
+- `.investskill/prompts/competitor-analysis.md`
+- `.investskill/prompts/dcf-valuation.md`
+- `.investskill/prompts/dividend-analysis.md`
+- `.investskill/prompts/earnings-call-analysis.md`
+- `.investskill/prompts/earnings-preview.md`
+- `.investskill/prompts/economics-analysis.md`
+- `.investskill/prompts/etf-analysis.md`
+- `.investskill/prompts/fact-check.md`
+- `.investskill/prompts/financial-report-analyst.md`
+- `.investskill/prompts/full-report.md`
+- `.investskill/prompts/fundamental-analysis.md`
+- `.investskill/prompts/industry-map.md`
+- `.investskill/prompts/insider-trading.md`
+- `.investskill/prompts/institutional-ownership.md`
+- `.investskill/prompts/learning-coach.md`
+- `.investskill/prompts/options-analysis.md`
+- `.investskill/prompts/portfolio-review.md`
+- `.investskill/prompts/position-ladder.md`
+- `.investskill/prompts/report-generator.md`
+- `.investskill/prompts/research-bundle.md`
+- `.investskill/prompts/result-validator.md`
+- `.investskill/prompts/risk-stress-test.md`
+- `.investskill/prompts/sector-analysis.md`
+- `.investskill/prompts/short-interest.md`
+- `.investskill/prompts/stock-eval.md`
+- `.investskill/prompts/stock-screener.md`
+- `.investskill/prompts/stock-valuation.md`
+- `.investskill/prompts/tax-lens.md`
+- `.investskill/prompts/technical-analysis.md`
+- `.investskill/prompts/thesis-tracker.md`
+
+Example: *"Evaluate AAPL"* → read `.investskill/prompts/stock-eval.md` and apply it to AAPL.
+Educational frameworks only — not financial advice.
+<!-- investskill:end -->
