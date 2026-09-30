@@ -6,6 +6,12 @@
       "sourceType": "github",
       "skillPath": "skills/find-skills/SKILL.md",
       "computedHash": "b146008599c31057cef1c145774cea5d5afb30e8f43fa802e47a4b461419aaaf"
+    },
+    "taiwan-equity-research-coverage": {
+      "source": "reason-machines/trending-skills",
+      "sourceType": "github",
+      "skillPath": "skills/taiwan-equity-research-coverage/SKILL.md",
+      "computedHash": "36cc588d11031c8e04b754c62274931a065948b99ed3ea5318f8d87506e4533f"
     }
   }
 }
