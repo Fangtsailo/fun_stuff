@@ -1,0 +1,15 @@
+---
+description: Format contract for single-stock analysis reports under analysis/. Use when writing, rerunning, or editing any stock report.
+globs: analysis/**/*.md
+alwaysApply: false
+---
+
+# Stock report format
+
+Every report in `analysis/` must follow `methodology/09-report-format.md` exactly.
+
+- Read `methodology/09-report-format.md` before writing; copy its §5 skeleton.
+- Keep every section and its number; write `不適用：原因` instead of deleting a section.
+- Fill all 14 scores in §3, or mark `未評估` and list it under `本次未驗證 / 待補`.
+- Amounts in NT$億, dates in YYYY-MM-DD.
+- Run the §6 self-check before finishing.
