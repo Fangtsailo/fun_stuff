@@ -1,0 +1,2 @@
+# Third-party agent skills. Restore with: npx skills experimental_install
+.agents/skills/
