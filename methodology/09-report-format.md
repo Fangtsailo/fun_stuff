@@ -18,12 +18,12 @@
 ## 2. 檔名與存放位置
 
 ```
-analysis/{股票代號}_{英文簡稱}_{YYYY-MM-DD}.md
-例：analysis/2330_TSMC_2026-09-30.md
+analysis/{股票代號}_{英文簡稱}.md
+例：analysis/2330_TSMC.md
 ```
 
-- 日期 = Data & Sources 的股價日期，不是撰寫日期
-- 重跑時另存新檔，不覆蓋舊檔
+- 股價日期寫在開頭 Data & Sources，不寫進檔名
+- 一家公司只留這一檔。重跑時覆蓋同一路徑，並更新 Data & Sources 的產出日期與股價日期
 
 ---
 
@@ -75,6 +75,7 @@ analysis/{股票代號}_{英文簡稱}_{YYYY-MM-DD}.md
 
 ```
 Data & Sources
+  Produced:   YYYY-MM-DD（這份報告寫成的日期）
   As of:      YYYY-MM-DD 收盤/盤中（股價 NT$X）；YYYY-MM-DD（最新季報）；YYYY-MM（最新月營收）
   Source:     <法說會、財報、公開資訊觀測站、媒體…，各自附日期>
   Retrieval:  web/tool retrieval | pasted by user | model memory
@@ -438,7 +439,9 @@ FCF 現值合計 → 終值（占 EV X%）→ EV → 股權價值 → 每股 NT$
 
 ## 6. 交付前自查（逐項打勾）
 
+- [ ] [00 新鮮度](00-data-discipline.md) 的完成條件全部成立
 - [ ] 檔名符合 §2
+- [ ] `Produced` 是這次寫成的日期，格式 YYYY-MM-DD
 - [ ] 章節從「結論先講」到「本次未驗證 / 待補」全部都在，3.1–3.4、4.1–4.6、5.1–5.6 沒跳號
 - [ ] §3 的 14 個分數都有填（或標「未評估」並列入「本次未驗證 / 待補」）
 - [ ] 金額全部是 NT$億，日期全部是 YYYY-MM-DD
