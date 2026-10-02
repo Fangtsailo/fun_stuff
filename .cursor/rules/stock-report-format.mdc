@@ -10,6 +10,6 @@ Every report in `analysis/` must follow `methodology/09-report-format.md` exactl
 
 - Read `methodology/09-report-format.md` before writing; copy its §5 skeleton.
 - Keep every section and its number; write `不適用：原因` instead of deleting a section.
-- Fill all 14 scores in §3, or mark `未評估` and list it under `本次未驗證 / 待補`.
+- Fill every §3 score from this fetch. `未評估` only as `methodology/09-report-format.md` §1.2 allows.
 - Amounts in NT$億, dates in YYYY-MM-DD.
 - Run the §6 self-check before finishing.

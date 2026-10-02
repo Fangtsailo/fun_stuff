@@ -10,6 +10,8 @@ description: >-
 
 The funnel, the scores, and the report skeleton already live in `methodology/`. This skill picks the branch and sequences the reads. Apply each file in place.
 
+A required score is **做完** when it is a number from this fetch. `未評估` is 做完 only under `methodology/09-report-format.md` §1.2: the primary document is not public as of `As of`. Valuation is 做完 when every method in `05-valuation.md` §5 that has a public source has a low, a mid, a high, and a weight.
+
 A request that names a framework listed in `.cursor/rules/investskill.mdc` follows that rule.
 
 ## 1. Pick the branch
@@ -25,8 +27,8 @@ Done when exactly one branch is selected.
 ## 2. Deep dive
 
 1. Read `methodology/00-data-discipline.md`. Re-fetch the latest public data in **新鮮度** bullet 1. Done when that fetch is in hand.
-2. Read `01-business-moat.md`, `02-financial-health.md`, `03-earnings-quality.md`, `04-management.md`, in that order. Done when each file's required scores are filled or marked 未評估.
-3. Read `05-valuation.md` and `06-risk-and-bear-case.md`. Done when margin of safety, risk/reward, and bear-case strength are filled or marked 未評估.
+2. Read `01-business-moat.md`, `02-financial-health.md`, `03-earnings-quality.md`, `04-management.md`, in that order. Done when each file's required scores are 做完.
+3. Read `05-valuation.md` and `06-risk-and-bear-case.md`. Done when margin of safety, risk/reward, bear-case strength, and the §5 methods are 做完.
 4. Read `07-scoring-and-decision.md`. Read `08-theme-analysis.md` only when the thesis is a theme. Done when the composite score and the decision (買進 / 觀察 / 放棄) are set.
 5. Read `methodology/09-report-format.md`. Copy the §5 skeleton into the §2 path. Set `Produced` to the date the file is written. The price as-of date goes in `As of`. Done when every numbered section in that skeleton is present.
 
@@ -39,7 +41,7 @@ One company has one file, the §2 path in `methodology/09-report-format.md`.
 1. Run the deep-dive reads.
 2. Overwrite that same path.
 
-Done when every 新鮮度 bullet holds on that path.
+Done when every 新鮮度 bullet holds on that path and every required score is 做完.
 
 ## 4. Screen
 
