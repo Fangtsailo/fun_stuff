@@ -31,6 +31,7 @@ Done when exactly one branch is selected.
 3. Read `05-valuation.md` and `06-risk-and-bear-case.md`. Done when margin of safety, risk/reward, bear-case strength, and the §5 methods are 做完.
 4. Read `07-scoring-and-decision.md`. Read `08-theme-analysis.md` only when the thesis is a theme. Done when the composite score and the decision (買進 / 觀察 / 放棄) are set.
 5. Read `methodology/09-report-format.md`. Copy the §5 skeleton into the §2 path. Set `Produced` to the date the file is written. The price as-of date goes in `As of`. Done when every numbered section in that skeleton is present.
+6. Build the price-volume chart from this fetch's daily K and volume, following `methodology/09-report-format.md` §7. Save it at the §2 image path and fill the `### 關鍵數據補充：價量疊圖` subsection. Done when the image path in the report opens, the image date equals `As of`, and every plotted number sits in the subsection table with its source tag.
 
 ## 3. Update
 
@@ -38,10 +39,10 @@ Done when exactly one branch is selected.
 
 One company has one file, the §2 path in `methodology/09-report-format.md`.
 
-1. Run the deep-dive reads.
-2. Overwrite that same path.
+1. Run the deep-dive reads, including the chart step.
+2. Overwrite that same path, and delete the previous chart image so the company keeps one image.
 
-Done when every 新鮮度 bullet holds on that path and every required score is 做完.
+Done when every 新鮮度 bullet holds on that path, every required score is 做完, and the chart subsection matches the new `As of`.
 
 ## 4. Screen
 
