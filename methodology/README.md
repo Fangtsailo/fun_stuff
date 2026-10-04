@@ -1,6 +1,6 @@
 # 公司好壞評估方法論（InvestSkill 歸納）
 
-> 來源：`.investskill/prompts/` 下 34 個框架檔。本資料夾只抽出「判斷一家公司好不好、值不值得買」的方法論，技術面、選擇權、稅務、ETF 等非公司品質框架不納入。
+> 來源：`.investskill/prompts/` 下 34 個框架檔。本資料夾只抽出「判斷一家公司好不好、值不值得買」的方法論，技術面、選擇權、稅務、ETF 等非公司品質框架不納入。例外：個股報告「關鍵數據」下的價量疊圖只是資料呈現，不是評分框架，規格見 [09 §7](09-report-format.md)。
 > 僅供學習用途，非投資建議。
 
 ---
@@ -24,7 +24,7 @@
 | 6 | 最壞會怎樣？什麼情況我會錯？ | [06-risk-and-bear-case.md](06-risk-and-bear-case.md) | `bear-case`、`stock-eval` 風險矩陣 |
 | 7 | 綜合起來給幾分？買/持有/賣？ | [07-scoring-and-decision.md](07-scoring-and-decision.md) | `full-report`、`stock-screener`、`result-validator` |
 | 題材 | 熱門題材的錢會流到誰？現在擠不擠？ | [08-theme-analysis.md](08-theme-analysis.md) | `industry-map`、`sector-analysis`、`thesis-tracker`（含非原生補充） |
-| 輸出 | 報告要寫成什麼格式？ | [09-report-format.md](09-report-format.md) | `full-report`、`report-generator`（本專案統一格式） |
+| 輸出 | 報告要寫成什麼格式？（含價量疊圖小節與圖檔位置） | [09-report-format.md](09-report-format.md) | `full-report`、`report-generator`（本專案統一格式） |
 
 **從哪裡開始**：先讀 [workflow.md](workflow.md)（從找候選到追蹤的五階段完整流程）。
 快速版：直接看 [checklist.md](checklist.md)（一頁式門檻速查表）。

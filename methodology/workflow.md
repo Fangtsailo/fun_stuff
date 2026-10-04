@@ -22,7 +22,7 @@ flowchart TD
 
 **原則：每一關只要不及格就淘汰，不要因為喜歡這家公司而放寬標準。**
 
-**產出**：每檔個股報告存到 `analysis/`，格式一律依 [09-report-format.md](09-report-format.md)。
+**產出**：每檔個股報告存到 `analysis/`，格式一律依 [09-report-format.md](09-report-format.md)。報告引用的價量疊圖存到 `analysis/img/`，規格見 09 §7。
 
 ---
 
@@ -31,6 +31,7 @@ flowchart TD
 - 查數字時走 [00](00-data-discipline.md) 規則 1–5。寫入或覆蓋 `analysis/` 報告前，[新鮮度](00-data-discipline.md) 的完成條件全部成立
 - 優先來源：10-K / 10-Q（台股：公開資訊觀測站年報、季報）
 - 每份筆記開頭寫：資料日期、來源、可信度
+- 寫入或覆蓋 `analysis/` 報告時，同一次抓取也取得價量疊圖要用的日 K、成交量與（有的話）分價量表；來源分級與缺件寫法照 [00](00-data-discipline.md) 規則 6–7，圖的規格照 [09 §7](09-report-format.md)
 
 → 細節：[00-data-discipline.md](00-data-discipline.md)
 
@@ -117,6 +118,7 @@ flowchart TD
 ### 定期檢查
 
 重跑時機：每次財報、股價 ±15%、滿 90 天、重大事件。
+重跑時圖也要重畫：新圖的檔名日期 = 新的股價 As of，刪除舊圖，更新報告內的圖片路徑。
 
 | 狀態 | 條件 | 動作 |
 |------|------|------|
