@@ -23,8 +23,8 @@ flowchart TD
 | 2 | 第 3 類：有新文件的代表公司讀抽出頁面、分級、寫引用；其餘沿用並標日期；展望相關文件 >15 份走兩段交件 | 引用表、索引、檢查點 | [03](03-filings-and-outlook-grading.md) |
 | 3 | 板塊 × 三類訊號總表；≥2 類＝熱門、1 類＝觀察；不硬湊 | 總表 | [02](02-hot-sector-signals.md) |
 | 4 | 每熱門板塊挑 1～2 檔（基本面＋題材、板塊代表＋相對優勢；不含動能）；長抱標強／條件／弱 | 入選清單 | [04](04-stock-selection-and-holding-tags.md) |
-| 5 | 強寫完整版、論述弱寫精簡版（條件只加註前提）；估值沿用 brief／同週 pool 價帶 | 各檔段落 | [04](04-stock-selection-and-holding-tags.md)、[05](05-valuation-bands.md) |
-| 6 | 照 09 骨架交詳版（`analysis/weekly/`）；聊天短版列全部入選每檔一行；標缺前三 | 週報 .md／聊天短版 | [07](07-delivery-and-writing.md)、[09](09-report-format.md) |
+| 5 | 強與條件寫完整版（5 小段、不畫疊圖；條件寫明前提）、論述弱寫精簡版（價格行：錨日收盤｜合理帶或未估值）；估值沿用 brief／同週 pool 價帶 | 各檔段落 | [04](04-stock-selection-and-holding-tags.md)、[05](05-valuation-bands.md)、[09](09-report-format.md) |
+| 6 | 照 09 骨架交詳版（`analysis/weekly/`，正式版以此為準；brief／handoff 底稿另存）；聊天短版列全部入選每檔一行；標缺前三 | 週報 .md／聊天短版 | [07](07-delivery-and-writing.md)、[09](09-report-format.md) |
 | 之後 | 本人點名 → 模式 B（含價量疊圖）；決定要買 → 才叫財務／策略 | — | [06](06-price-volume-chart.md)、[08](08-schedule-and-roles.md) |
 
 **原則：訊號不夠就照實寫少，不降門檻；資料拿不到就標缺，不發明、不繞過防護。**
@@ -41,3 +41,5 @@ flowchart TD
 | 公司名旁寫「觀察」「不加碼」 | 00 §1 |
 | 只寫本益比不給台幣價帶 | 05 §2 |
 | 稿內出現資產數字或買賣命令句 | 00 §1、07 §2 |
+| 週報完整版或精簡版畫價量疊圖 | 06 §1、09 §8 |
+| 法人寫股數沒換算成張，或用四種以外的來源標籤 | 00 §3、09 §3.4、§4 |
