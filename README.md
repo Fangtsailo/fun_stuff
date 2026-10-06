@@ -63,6 +63,7 @@
 | [`methodology/01-business-moat.md`](methodology/01-business-moat.md) … [`08-theme-analysis.md`](methodology/08-theme-analysis.md) | 各關的算法與分數 |
 | [`methodology/09-report-format.md`](methodology/09-report-format.md) | 報告骨架、必填分數、價量疊圖規格、交付自查 |
 | [`methodology/README.md`](methodology/README.md) | 方法論索引與評分一覽 |
+| [`weekly-opportunities/`](weekly-opportunities/) | 台股週投資機會方法論（固定板塊、熱門訊號、快速選股） |
 | [`analysis/`](analysis/) | 已產出的個股報告 |
 | [`analysis/img/`](analysis/img/) | 報告引用的價量疊圖 |
 
